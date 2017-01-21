@@ -1,3 +1,7 @@
+# Fork of baseimage-docker with a 32 bit base image
+
+This is [baseimage-docker](https://github.com/phusion/baseimage-docker) but with a [32 bit Ubuntu base image](https://github.com/ioft/dockerhub). The only change is in `image/Dockerfile` where `FROM ubuntu:16.04` is replaced with ioft/i386-ubuntu_core.
+
 # A minimal Ubuntu base image modified for Docker-friendliness
 
 [![](https://badge.imagelayers.io/phusion/baseimage:0.9.17.svg)](https://imagelayers.io/?images=phusion/baseimage:latest 'Get your own badge on imagelayers.io')

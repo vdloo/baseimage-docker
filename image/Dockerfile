@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ioft/i386-ubuntu_core
 MAINTAINER Phusion <info@phusion.nl>
 
 ADD . /bd_build
