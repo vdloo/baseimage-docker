@@ -1,6 +1,6 @@
 # Fork of baseimage-docker with a 32 bit base image
 
-This is [baseimage-docker](https://github.com/phusion/baseimage-docker) but with a [32 bit Ubuntu base image](https://github.com/ioft/dockerhub). The only change is in `image/Dockerfile` where `FROM ubuntu:16.04` is replaced with ioft/i386-ubuntu_core.
+This is [baseimage-docker](https://github.com/phusion/baseimage-docker) but with a [32 bit Ubuntu base image](https://github.com/ioft/dockerhub).  The only change is in `image/Dockerfile` where `FROM ubuntu:16.04` is replaced with `ioft/i386-ubuntu_core`. Also the `/bd_build/fix_pam_bug.sh` script is skipped.
 
 # A minimal Ubuntu base image modified for Docker-friendliness
 
